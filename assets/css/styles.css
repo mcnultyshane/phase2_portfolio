@@ -35,14 +35,13 @@
 } */
 
 
-h1 {
+/* h1 {
     font-size: 4rem;
     font-weight: 1000;
     color: var(--gin);
     display: inline-block;
-    text-shadow: 1px 1px white;
-   
-}
+    text-shadow: 1px 1px white;   
+} */
 
 /* h2 {
     font-size: 3.5rem;
@@ -186,7 +185,7 @@ h1 {
     flex-wrap: wrap;
     flex: 1 12 160px;
   } */
-/* #work-project-a {
+#work-project-a {
     background: url(../images/horiseon-screencap.jpg);
     background-size: cover;
     height:500px;
@@ -197,7 +196,7 @@ h1 {
     align-content: center;
     border: var(--border)
 
-} */
+}
 /* #work-project-b {
     background: url(../images/mini2_screencap.png);
     background-size: cover;
