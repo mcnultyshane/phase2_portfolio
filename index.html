@@ -2,140 +2,170 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/resets.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Professional Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/resets.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Professional Portfolio</title>
 </head>
+<header class="header">
 
-<body class="box">
-
-    <header class="box level 2">
-        <div class="level-item">
-            <h1 class="my_name level-left is-size-1 has-text-weight-semibold">Shane McNulty's Portfolio</h1>
+  <body class="box">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <h1 class="my_name level-left is-size-1 has-text-weight-semibold has-text-centered">Shane McNulty's Portfolio
+          </h1>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </div>
-        <nav class="navbar is-transparent pagelinks" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <ul class="directions level-right">
-                    <li class="navbar-item links" id="link1"><a href="#about_me">About Me</a></li>
-                    <li class="navbar-item links" id="link2"><a href="#work-projects-id">Work</a></li>
-                    <li class="navbar-item links" id="link3"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div= class="hero-image">
-        <div class="hero-text">
-            <h5></h5>
-            <p class="text"> "We do not go into the green woods and crystal waters to 'rough it,' we go to smooth it. We
-                get it rough enough at home, in towns and cities." -Nessmuk </p>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active" id="link1" href="#about_me">
+              About Me
+            </a>
+            <a class="navbar-item" id="link3" href="#work-projects-id">
+              Projects
+            </a>
+            <a class="navbar-item" id="link3" href="#contact">
+              Contact
+            </a>
+          </div>
         </div>
+      </nav>
+      <img class="hero is-transparent is-large" src="./assets/images/dushore-cabin.jpg"alt="lake-view-nature" target="_blank">
+      <div class="container has-text-centered">
+        <p class="title is-size-4">
+          "We do not go into the green woods and crystal waters to 'rough it,' [rather] we go to smooth it.<br>We get it
+          rough
+          enough at home, in towns and cities."
+        </p>
+        <p class="subtitle">
+          -Nessmuk
+        </p>
+      </div>
+    </div>
+    
+      <div class="hero-body ">
+    </div>
+</header>
+
+
+<main class="box 3">
+  <div class="box">
+    <section class="tile is-ancestor 4">
+      <div class="tile is-3 is-vertical 9">
+        <h2 class="about_me" id="about_me">About Me</h2>
+      </div>
+      <div class="tile 10">
+        <p class="container">My name is Shane McNulty and welcome to my new Professional Portfolio. This
+          Portfolio is designed
+          to
+          highlight my transition into Coding and Digitial Language. I have listed below a set of
+          links
+          that
+          will take you to the projects that I have completed or I am currently working on. I have
+          also
+          listed
+          my contact information below. Please feel free to reach out at any time if you have any
+          questions
+          about my work.</p>
+      </div>
+    </section>
+  </div>
+  <div class="box">
+    <section class="tile is-ancestor 5">
+      <div class="tile is-3  11">
+        <h2 class="work" id=work-projects-id>Projects</h2>
+      </div>
+      <div class="tile" id="projects-box">
+        <div class="columns is-flex-wrap-wrap project-windows">
+          <div class="column box">
+            <figure class="image project-blocks" id="work-project-a">
+              <img class="project-links is-full" src="./assets/images/benfranklin.jpg" href="https://github.com/Keith-L-Watford/artists-and-bandstarget" target="_blank"
+                rel="noopener noreferrer">
+              <p class="block-header"><strong>Team Project</strong></p>
+            </figure>
+          </div>
+          <div class="column box">
+            <figure class="image project-blocks" id="work-project-b">
+              <img class="project-links" src="./assets/images/horiseon-screencap.jpg" href="https://github.com/mcnultyshane/horiseon_repatch" target="_blank" rel="noopener noreferrer">
+              <p class="block-header"><strong>Horiseon Repatch</strong></p>
+            </figure>
+          </div>
+          <div class="column box">
+            <figure class="image project-blocks" id="work-project-c">
+              <img class="project-links" src="assets/images/mini2_screencap.png" href="" target="_blank" rel="noopener noreferrer">
+              <p class="block-header"><strong>CSS Snipet Code Cheat Sheet</strong></p>
+            </figure>
+          </div>
+          <div class="column box">
+            <figure class="image project-blocks" id="work-project-d">
+              <img class="project-links" src="./assets/images/screen_cap-midday.jpg" href="" target="_blank" rel="noopener noreferrer">
+              <p class="block-header"><strong>Workday Scheduler</strong></p>
+            </figure>
+          </div>
+          <div class="column box">
+            <figure class="image project-blocks" id="work-project-e">
+              <img class="" src="assets/images/password-generated.jpg" href="https://github.com/mcnultyshane/password_generator" target="_blank"
+                rel="noopener noreferrer">
+              <p class="block-header"><strong>Password Generator</strong> </p>
+            </figure>
+          </div>
         </div>
-        <main class="box 3">
-            <div class="box">
-                <section class="tile is-ancestor 4">
-                    <div class="tile is-3 is-vertical 9">
-                        <h2 class="about_me">About Me</h2>
-                    </div>
-                    <div class="tile 10">
-                        <p class="container">My name is Shane McNulty and welcome to my new Professional Portfolio. This
-                            Portfolio is designed
-                            to
-                            highlight my transition into Coding and Digitial Language. I have listed below a set of
-                            links
-                            that
-                            will take you to the projects that I have completed or I am currently working on. I have
-                            also
-                            listed
-                            my contact information below. Please feel free to reach out at any time if you have any
-                            questions
-                            about my work.</p>
-                    </div>
-                </section>
-            </div>
-            <div class="box">
-                <section class="tile is-ancestor 5">
-                    <div class="tile is-3 is-vertical 11">
-                        <h2 class="work">Work</h2>
-                    </div>
-                    <div class="tile 6">
-                        <div class="columns project-windows">
-                          <div class="column box">
-                            <figure class="project-blocks" id="work-project-a"><a
-                                    href="https://mcnultyshane.github.io/second_mini-project/" target="_blank"
-                                    rel="noopener noreferrer"></a>
-                                <h3 class="block-header">CSS Snipet Code Cheat Sheet</h3>
-                            </figure>
-                        </div>
-                            <div class="column box">
-                                <figure class="project-blocks" id="work-project-b"><a
-                                        href="https://mcnultyshane.github.io/second_mini-project/" target="_blank"
-                                        rel="noopener noreferrer"></a>
-                                    <h3 class="block-header">CSS Snipet Code Cheat Sheet</h3>
-                                </figure>
-                            </div>
-                            <div class="column box">
-                              <figure class="project-blocks" id="work-project-c"><a
-                                      href="https://mcnultyshane.github.io/second_mini-project/" target="_blank"
-                                      rel="noopener noreferrer"></a>
-                                  <h3 class="block-header">CSS Snipet Code Cheat Sheet</h3>
-                              </figure>
-                          </div>
-                          <div class="column box">
-                            <figure class="project-blocks" id="work-project-d"><a
-                                    href="https://mcnultyshane.github.io/second_mini-project/" target="_blank"
-                                    rel="noopener noreferrer"></a>
-                                <h3 class="block-header">CSS Snipet Code Cheat Sheet</h3>
-                            </figure>
-                        </div>
-                        <div class="column box">
-                          <figure class="project-blocks" id="work-project-e"><a
-                                  href="https://mcnultyshane.github.io/second_mini-project/" target="_blank"
-                                  rel="noopener noreferrer"></a>
-                              <h3 class="block-header">CSS Snipet Code Cheat Sheet</h3>
-                          </figure>
-                      </div>
-                        </div>
-                    </div>
+      </div>
+  </div>
+  </section>
+  </div>
+  <div class="box">
+    <section class="tile is-ancestor 7">
+      <div class="tile is-3 is-vertical 12" id="contact-box">
+        <div>
+          <figure class="image is-128x128">
+            <img class="is-rounded" id="headshot" src="assets/images/headshot-new.jpg">
+          </figure>
+        </div>
+        <h2 class="contact" id="contact">Contact</h2>
 
-            </div>
-            </section>
-            </div>
-            <div class="box">
-                <section class="tile is-ancestor 7">
-                    <div class="tile is-3 is-vertical 12">
-                        <h2 class="contact" id="contact">Contact Me</h2>
-                    </div>
-                    <div class="tile is-flex is-align-content-space-evenly  8">
-                        <ul class="columns contact-links">
-                            <li class="column has-text-centered" id="email">
-                                <a href="mailto:mcnultyshane@gmail.com">Email</a>
-                            </li>
+      </div>
+      <div class="tile is-flex is-align-content-space-evenly  8">
+        <ul class="columns contact-links">
+          <li class="column icon has-text-centered" id="email">
+            <a href="mailto:mcnultyshane@gmail.com"><i class="fas fa-envelope-square fa-4x"></i>
 
-                            <li class="column has-text-centered" id="github">
-                                <a href="https://www.linkedin.com/in/shane-mcnulty-5748aa1a/">LinkedIn</a>
-                            </li>
+            </a>
+          </li>
 
-                            <li class="column has-text-centered" id="phone">
-                                <a href>Phone Contact</a>
-                            </li>
-                            <li class="column has-text-centered" id="resume">
-                              <a href>Resume</a>
-                          </li>
-                        </ul>
-                    </div>
+          <li class="column icon has-text-centered" id="github">
+            <a href="https://www.linkedin.com/in/shane-mcnulty-5748aa1a/"><i class="fab fa-linkedin fa-4x "></i>
 
-                </section>
-            </div>
+            </a>
+          </li>
+
+          <li class="column icon has-text-centered" id="phone">
+            <a href><i class="fas fa-phone-square-alt fa-4x"></i> </a>
+          </li>
+          <li class="column icon has-text-centered" id="resume">
+            <a href><i class="far fa-file fa-4x"></i></a>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+  </div>
 
 
-        </main>
-
+</main>
+<script src="https://kit.fontawesome.com/81cbfceaa1.js" crossorigin="anonymous"></script>
+<script src="assets/javascript/scripts.js"></script>
 </body>
 
 </html>
